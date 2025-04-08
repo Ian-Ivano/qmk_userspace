@@ -10,3 +10,21 @@
 
 #define RGB_MATRIX_STARTUP_SPD 60
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//CUSTOM definitions
+#define UNICODE_SELECTED_MODES UNICODE_MODE_MACOS
+
