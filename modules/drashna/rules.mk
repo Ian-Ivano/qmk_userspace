@@ -1,2 +1,0 @@
-UNICODE_COMMON := yes
-
