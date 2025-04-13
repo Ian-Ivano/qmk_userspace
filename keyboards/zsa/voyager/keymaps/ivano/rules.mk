@@ -7,3 +7,12 @@ SPACE_CADET_ENABLE = no
 COMBO_ENABLE = yes
 LAYER_LOCK_ENABLE = yes
 
+
+
+
+
+
+UNICODE_ENABLE = yes
+
+
+
