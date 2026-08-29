@@ -1,4 +1,5 @@
 #include "ian.h"
+#include "quantum.h"
 
 const uint16_t PROGMEM underscore_combo[] = {KC_F, KC_J, COMBO_END};
 const uint16_t PROGMEM capsword_combo[] = {KC_U, KC_R, COMBO_END};
