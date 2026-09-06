@@ -13,10 +13,8 @@ jobs:
       qmk_repo: qmk/qmk_firmware
       qmk_ref: master
     # Bypasses the dubious ownership error by declaring the safe directory environment rules
-    env:
-      GIT_CONFIG_GLOBAL_COUNT: 1
-      GIT_CONFIG_GLOBAL_KEY_0: safe.directory
-      GIT_CONFIG_GLOBAL_VALUE_0: /__w/qmk_userspace/qmk_userspace
+    call: git config --global --add safe.directory /__w/qmk_userspace/qmk_userspace
+
 
   publish:
     name: 'QMK Userspace Publish'
