@@ -1,2 +1,2 @@
-COMBO_ENABLE = yes
+COMBO_ENABLE = true
 REPEAT_KEY_ENABLE = yes
