@@ -3,13 +3,13 @@
 // SPDX-License-Identifier: GPL-2.0-or-later
 
 #include QMK_KEYBOARD_H
-
+#include "custom_definitions.h"
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [0] = LAYOUT(
         KC_ESC,  KC_1,    KC_2,    KC_3,    KC_4,    KC_5,                         KC_6,    KC_7,    KC_8,    KC_9,    KC_0,    _______,
         CW_TOGG, KC_B,    KC_L,    KC_D,    KC_C,    KC_V,                         KC_J,    KC_Y,    KC_O,    KC_U,    LEADER,    _______,
-        _______, KC_N,    KC_R,    KC_T,    KC_S,    KC_G,                         KC_P,    KC_H,    KC_A,    KC_E,    KC_I, _______,
+   _______, HOME_N, HOME_R,    HOME_T,    HOME_S,    KC_G,                         KC_P,    HOME_H,    HOME_A,    HOME_E,    KC_I, _______,
         _______, KC_X,    KC_Q,    KC_M,    KC_W,    KC_Z,                         KC_K,    KC_F,    KC_QUOT,KC_SCLN,  KC_DOT, _______,
                                     LT(1,KC_SPC), CTL_T(KC_TAB),         SFT_T(KC_ENT), LT(2,KC_BSPC)
     ),
