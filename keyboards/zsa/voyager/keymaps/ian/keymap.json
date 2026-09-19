@@ -1,6 +1,7 @@
 {
   "modules": [
     "getreuer/sentence_case",
-    "getreuer/super_leader"
+    "getreuer/super_leader",
+    "getreuer/palettefx"
   ]
 }

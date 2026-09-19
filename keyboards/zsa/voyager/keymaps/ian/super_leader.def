@@ -1,4 +1,4 @@
 SEQ_KEY(leader_default, (), KC_COMMA)
 SEQ_KEY(v,   (KC_V),             C(KC_V))
 SEQ_KEY(dfu, (KC_D, KC_F, KC_U), QK_BOOT)
-SEQ_STR(me,  (KC_M, KC_E),       "my@email.com")
+SEQ_STR(me,  (KC_M, KC_E), "Paulo Mkali")
