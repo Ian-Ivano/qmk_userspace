@@ -2,6 +2,7 @@
   "modules": [
     "getreuer/sentence_case",
     "getreuer/super_leader",
-    "getreuer/palettefx"
+    "getreuer/palettefx",
+    "drashna/unicode_typing"
   ]
 }
