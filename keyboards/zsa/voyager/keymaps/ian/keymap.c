@@ -11,7 +11,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         CW_TOGG, KC_B,    KC_L,    KC_D,      KC_C,    KC_V,                         KC_J,    KC_Y,    KC_O,    KC_U,    LEADER,    _______,
     _______,   HOME_N,  HOME_R,  HOME_T,    HOME_S,    KC_G,                         KC_P,    HOME_H,    HOME_A,    HOME_E,    KC_I, _______,
         _______, KC_X,    KC_Q,    KC_M,      KC_W,    KC_Z,                         KC_K,    KC_F,    KC_QUOT,KC_SCLN,  KC_DOT, _______,
-                                             KC_SPC, LT(1,KC_TAB),             KC_ENT, LT(2,KC_BSPC)
+                                             KC_SPC, LT(1,KC_TAB),           LT(3,KC_ENT), LT(2,KC_BSPC)
     ),
     [1] = LAYOUT(
         KC_ESC,  KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_F5,                        KC_F6,   KC_F7,   KC_F8,   KC_F9,   KC_F10,  KC_F11,
@@ -27,4 +27,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         _______, _______, _______, _______, _______, _______,                      _______, C(S(KC_TAB)), C(KC_TAB), _______, _______, _______,
                                                      _______, _______,    _______, _______
     ),
+    [3] = LAYOUT(
+        KC_ESC,         KC_1,       KC_2,       KC_3,         KC_4,       KC_5,                   KC_6,       KC_7,     KC_8,    KC_9,       KC_0,    _______,
+        _______,     KC_BLCK,    _______,    KC_DBSK,      KC_COMC,    _______,                _______,    _______,  _______, _______,     LEADER,    _______,
+        _______,     KC_NORM,     KC_REG,    KC_SCPT,      KC_SUPR,    _______,                _______,    KC_FRAK,  KC_AUSS, _______,    _______,    _______,
+        _______,     _______,    _______,    KC_SCRM,      KC_WIDE,    KC_ZALGO,               _______,    _______,  _______, _______,    _______,    _______,
+                                                            _______, _______,               _______, _______
+    ),   
 };
