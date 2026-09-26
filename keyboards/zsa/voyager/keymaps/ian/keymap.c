@@ -4,6 +4,7 @@
 
 #include QMK_KEYBOARD_H
 #include "custom_definitions.h"
+#include "custom_behaviors.h"
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [0] = LAYOUT(
@@ -31,7 +32,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_ESC,         KC_1,       KC_2,       KC_3,         KC_4,       KC_5,                   KC_6,       KC_7,     KC_8,    KC_9,       KC_0,    _______,
         _______,     KC_BLCK,    _______,    KC_DBSK,      KC_COMC,    _______,                _______,    _______,  _______, _______,     LEADER,    _______,
         _______,     KC_NORM,     KC_REG,    KC_SCPT,      KC_SUPR,    _______,                _______,    KC_FRAK,  KC_AUSS, _______,    _______,    _______,
-        _______,     _______,    _______,    KC_SCRM,      KC_WIDE,    KC_ZALGO,               _______,    _______,  _______, _______,    _______,    _______,
+        _______,     _______,    _______,    KC_SCRM,      KC_WIDE,    KC_ZALGO,               _______,    SM_TOGG,    SM_ON,  SM_OFF,    _______,    _______,
                                                             _______, _______,               _______, _______
     ),   
 };
