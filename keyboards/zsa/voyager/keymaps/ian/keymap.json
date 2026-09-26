@@ -3,6 +3,7 @@
     "getreuer/sentence_case",
     "getreuer/super_leader",
     "getreuer/palettefx",
-    "drashna/unicode_typing"
+    "drashna/unicode_typing",
+    "ohshitgorillas/xcase"
   ]
 }

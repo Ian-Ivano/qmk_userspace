@@ -4,3 +4,9 @@
 [submodule "modules/drashna"]
 	path = modules/drashna
 	url = https://github.com/drashna/qmk_modules.git
+[submodule "modules/ohshitgorillas/xcase"]
+	path = modules/ohshitgorillas/xcase
+	url = https://github.com/ohshitgorillas/qmk-xcase.git
+[submodule "modules/modules/ohshitgorillas/spongemock"]
+	path = modules/modules/ohshitgorillas/spongemock
+	url = https://github.com/ohshitgorillas/qmk-spongemock.git
