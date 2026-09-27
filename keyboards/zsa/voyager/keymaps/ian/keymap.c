@@ -4,7 +4,7 @@
 
 #include QMK_KEYBOARD_H
 #include "custom_definitions.h"
-#include "custom_behaviors.h"
+#include "custom_behaviors.c"
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [0] = LAYOUT(
