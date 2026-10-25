@@ -1,5 +1,7 @@
 //Function for triggernig custom behaviors through super leander key
 #include "xcase.h"
+#include "custom_definitions.h"
+
 static void custom_behaviors(void* ){
    enable_xcase_with(KC_UNDS); 
 }
