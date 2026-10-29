@@ -10,7 +10,7 @@ uint16_t get_tapping_term(uint16_t keycode, keyrecord_t* record) {
   switch (keycode) {
     case HOME_H:
     case HOME_S:
-      return TAPPING_TERM - 55;
+      return TAPPING_TERM - 80;
     default:
       return TAPPING_TERM;
   }  
